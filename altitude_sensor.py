@@ -11,3 +11,7 @@ class AltitudeSensor(BasePressureSensor):
 
     def get_data(self):
         return 26500.0 + random.uniform(-500, 500)
+
+    def display_details(self):
+        super().display_details()
+        print(f"Max altitude: {self.max_altitude}")

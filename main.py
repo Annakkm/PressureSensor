@@ -1,12 +1,8 @@
 from ground_sensor import GroundSensor
-from base_sensor import BasePressureSensor
 from altitude_sensor import AltitudeSensor
-
-import random
 
 print("|Program for air pressure sensors for measurements at different altitudes.|\n")
 
-# base_sensor = BasePressureSensor("BS-002", "Base")
 ground_sensor = GroundSensor("GS-001", "Laboratory")
 altitude_sensor = AltitudeSensor("AL-003", "Aircraft", 12000.0)
 
