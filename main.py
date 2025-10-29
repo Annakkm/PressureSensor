@@ -1,7 +1,7 @@
 from ground_sensor import GroundSensor
 from altitude_sensor import AltitudeSensor
 
-print("|Program for air pressure sensors for measurements at different altitudes.|\n")
+print("\nProgram for air pressure sensors for measurements at different altitudes.\n")
 
 ground_sensor = GroundSensor("GS-001", "Laboratory")
 altitude_sensor = AltitudeSensor("AL-003", "Aircraft", 12000.0)
