@@ -8,7 +8,7 @@ class BasePressureSensor:
         self.measurement_range = measurement_range
 
     def display_details(self):
-        print("Showing the results")
+        print("Showing the results from the base class")
         print(f"ID sensor: {self.sensor_id}")
         print(f"Location: {self.location}")
         print(f"Measurment range : {self.measurement_range[0]} - {self.measurement_range[1]}")
